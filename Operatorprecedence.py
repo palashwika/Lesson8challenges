@@ -8,9 +8,9 @@ print("Value of (v+w)* x/y is",z)
 
 
 name="John"
-age=2
+age=1
 
-if name == "Alex" or name == "John" and age>=2: #or before and, considers alex and disregards john  
+if name == "Alex" or name == "John" and age>=2: #If name=alex, john would be disregarded;name == "John" and age>=2 are a single condition 
     print("Hello! Welcome.")
 else:
     print("Good Bye!!")
